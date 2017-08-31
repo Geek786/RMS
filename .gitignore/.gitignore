@@ -1,0 +1,171 @@
+<html>
+<head>
+	<title>Form</title>
+	<style>
+	#h2{
+		font-weight:bold;
+		font.size:50px;
+		color:white;
+	}
+	</style>
+</head>
+<body style=background-color:white>
+
+	<br/>
+	<h1 align=center style=font-variant:embed><font color="light-blue"> <h1> State Bank Of India <img src=""/> </h1> </font></h1>
+	<hr align="center" size="1px" color="blue"/><br/>
+	<marquee direction="left-side" blink="autoplay"><b><h2><font color="red">WEL-COME TO STATE BANK OF INDIA </font>	</h2></b></marquee>
+	<fieldset>
+		<legend align="center">
+			<h2>Registration Form</h2>
+		</legend>
+		<form action="vich.html" method="get" align="center">
+			<table align="center" width="50%">
+			<tr>
+				<td padding="1px">
+				Enter First Name: 
+				</td>
+				<td>
+				<input type="text" placeholder="Provide Holder First Name" name="cust_name" size="35%"/>	
+				</td>
+			</tr>
+			<tr>
+				<td>
+				Enter Middle Name: 
+				</td>
+				<td>
+				<input type="text" placeholder="Provide Holder Middle Name" name="cust_name" size="35%"/>
+				</td>
+			</tr>
+			<tr>
+				<td>
+				Enter Last Name: 
+				</td>
+				<td>
+				<input type="text" placeholder="Provide Holder Middle Name" name="cust_name" size="35%"/>
+
+				</td>
+			</tr>
+			<tr>
+			<td>
+			Upload you Documents: 
+			</td>
+			<td>
+				<input type="file" name="upload" />
+			</td>
+			</tr>
+			<tr>
+			<td>
+			Address:
+			</td>
+			<td>
+			<textarea rows="4" cols="27"></textarea>
+			</td>
+			</tr>
+			
+			<tr>
+			<td>
+			Country:
+			</td>
+			<td>
+				<select name="location">
+					<option>India</option>
+					<option>Pakistan</option>
+					<option>Bang cock</option>
+					<option>London</option>
+					<option>America</option>
+					<option>NewYork</option>
+					<option>Paris</option>
+					<option>Philippines</option>
+					<option>Brazil</option>
+					<option>Tokyo</option>
+					<option>China</option>
+					<option>Japan</option>
+					<option>Nepal</option>
+					<option>Peru</option>
+				</select>
+			</td>
+			<td>
+			City:
+			</td>
+			<td>
+				<select name="location">
+					<option>Mumbai</option>
+					<option>Luck now</option>
+					<option>Bangalore</option>
+					<option>Kerla</option>
+					<option>Gujarat</option>
+					<option>Surat</option>
+					<option>Aaasam</option>
+					<option>Ahmand Nagar</option>
+					<option>Goa</option>
+					<option>Delhi</option>
+					<option>Alhabaad</option>
+					<option>Naagpur</option>
+					<option>Manali</option>
+					<option>Sikkim</option>
+				</select>
+			</td>
+			</tr>
+			
+			<tr>
+				<td>
+				Gender: 
+				</td>
+				<td>
+				Male &nbsp;<input type="radio" name="gender"/>&nbsp;
+					Female &nbsp;<input type="radio" name="gender"/>
+				</td>
+				<tr>
+				<td>
+					Enter Your Email id: 
+				</td>
+				<td>
+				<input type="email" name="email" placeholder="E-mail" size="35%"/>
+				</td>
+				</tr>
+				<tr>
+				<td>
+					Password: 
+				</td>
+				<td>
+				<input type="password" name="pass" placeholder="Password" size="35%"/>
+				</td>
+				</tr>
+				<tr>
+				<td>
+					Confirm Password: 
+				</td>
+				<td>
+					<input type="password" name="pass" placeholder="Confirm Password" size="35%"/><br/><br/>
+				</td>
+				</tr>
+				
+				<tr>
+					<td>
+					<strong>Agree Terms & Condition</strong>
+					</td>&nbsp;
+					<td>
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" name="terms" border="2%"/>
+					</td>
+				</tr>
+				
+				<tr>
+				<td>
+				
+				</td>
+				<td><br/>
+				<input type="submit" value="Submit" name="submit"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="reset" value="Clear" name="clr"/>
+				</td>
+				</tr>
+			</tr>
+			</table>
+		</form>
+	</fieldset><br/>
+	<div>
+	<ul>
+		<li><a href="videos.html"><h2>Bank Technology Video</h2> </a></li>
+	</ul>
+	</div>
+</body>
+</html>
